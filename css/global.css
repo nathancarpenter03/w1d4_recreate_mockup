@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row-header {
+    display: flex;
+    margin-bottom: 0;
+    height: 50px;
+}
+
+.row-treeimage {
+    display: flex;
+    background-image: url(/images/assets/background.jpg);
+    height: 200px;
+    color: white;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.row-account-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.column-account-options {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    border: solid;
+    justify-content: center;
+    align-content: center;
+}
+
+.personal {
+    height: 150px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    justify-content: center;
+    align-content: center;
+}
+
+.smallbusiness {
+    height: 150px;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    justify-content: center;
+}
+
+.enterprise {
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+.row-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-details {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    border: solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-footer {
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    top-margin: 15px;
+}
+
