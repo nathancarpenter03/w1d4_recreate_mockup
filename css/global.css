@@ -44,6 +44,11 @@ body {
     align-content: center;
 }
 
+.about {
+display: inline-flex;
+    background-color: grey;
+}
+
 .personal {
     height: 150px;
     width: 100%;
@@ -89,6 +94,6 @@ body {
     margin-bottom: 0;
     align-items: center;
     justify-content: center;
-    top-margin: 15px;
+    margin-top: 15px;
 }
 
