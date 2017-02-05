@@ -14,7 +14,6 @@ height: 45px;
     margin: 0 auto;
     display: flex;
     max-width: 1200px;
-    margin-left: 15px;
 }
 
 .nav-container ul {
@@ -38,10 +37,9 @@ a {
     margin: 0 auto;
 }
 
-
 .row-treeimage {
     display: flex;
-    background-image: url(/images/assets/background.jpg);
+    background-image: url(../images/assets/background.jpg);
     height: 200px;
     color: white;
     font-size: 32px;
@@ -63,6 +61,7 @@ a {
     width: 225px;
     margin: 25px 25px 0px 25px;
     text-align: center;
+    
 }
 
 .personal {
@@ -70,7 +69,8 @@ a {
     background-color: #509252;
     color: lightgrey;
     justify-content: center;
-    align-content: center
+    align-content: center;
+    padding-top: 30px;
 }
 
 .smallbusiness {
@@ -79,6 +79,7 @@ a {
     color: lightgrey;
     justify-content: center;
     align-content: center;
+    padding-top: 30px;
 }
 
 .enterprise {
@@ -86,11 +87,23 @@ a {
     background-color: #111111;
     color:lightgrey;
     justify-content: center;
-    align-content: center
+    align-content: center;
+    padding-top: 30px;
+}
+
+.button-background {
+    background-color: white;
+    border: none;
 }
 
 button {
     border-radius: 17px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+button:hover {
+    background-color: lightblue;
 }
 
 .price {
