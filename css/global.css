@@ -96,10 +96,11 @@ a {
     border: none;
 }
 
-button {
+.choosebutton {
     border-radius: 17px;
     background-color: white;
     border: 1px solid grey;
+    padding: 5px;
 }
 
 button:hover {
